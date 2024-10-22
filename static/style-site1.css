@@ -341,3 +341,7 @@ span.destaque {
 .card-title {
     font-size: 1.2em;
 }
+
+.box-certificacao img.espaco {
+    padding: 17px;
+}
