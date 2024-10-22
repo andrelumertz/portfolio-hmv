@@ -1,0 +1,343 @@
+h1, h2, h3, h4, h5, h6, p, span, a, li {
+    font-family: "Ubuntu", sans-serif;
+}
+h1 {
+    color: #2366af;
+    margin-top: 0;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+a {
+    outline: 0 !important;
+    text-decoration: none !important;
+    color: #666;
+}
+p {
+    color: #666;
+    font-size: 1em;
+    line-height: 25px;
+}
+p:last-child {
+    margin-bottom: 0;
+}
+img.banner-marcacao {
+    width: 100%;
+}
+.box-lista {
+    display: block;
+}
+footer {
+    background-color: #ccc;
+    padding: 40px 0 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#header {
+    width: 100%;
+    z-index: 8888 !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+}
+.menu-principal {
+    width: auto;
+    background-color: #2366af;
+    display: inline-block;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+#inicio {
+    height: 85vh;
+    z-index: 1;
+}
+#objetivos {
+    background-color: #2366af;
+}
+h1 {
+    text-align: center;
+    font-size: 1.5em;
+}
+h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 1.3em;
+    margin-bottom: 23px;
+}
+.cabecalho {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%)
+}
+.cabecalho h1 {
+    font-size: 1.7em !important;
+    text-align: center !important;
+    background-color: #6a2c91;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px 5px 0 0;
+    display: inline-block;
+    margin: 0 !important;
+}
+.cabecalho p {
+    color: #105DA0;
+    font-size: 1.2em;
+    line-height: 27px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 0 5px 5px 5px;
+    margin-top: 0;
+}
+.box-objetivo {
+    background-color: #105DA0;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px 0 0;
+}
+.box-objetivo:last-child {
+    margin-bottom: 0;
+}
+.box-objetivo p {
+    color: #fff;
+    margin: 0;
+}
+.box-objetivo img {
+    width: 65px;
+    margin: 0 15px 0 0;
+    border-radius: 5px 0 0 5px;
+}
+.box-objetivo p,img {
+    display: inline-block;
+}
+.galeria {
+    display: flex;
+}
+.galeria img {
+    margin: 0;
+    padding: 0 2px 2px 0;
+}
+#nossos-cursos {
+    background: url("back-geral.png") !important;
+    padding-bottom: 0;
+}
+footer {
+    background-color: #2366af;
+    padding: 40px 0 40px 0;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p {
+    color: #fff;
+    margin: 0;
+}
+.text-right {
+    text-align: right;
+}
+footer i {
+    color: #fff;
+    font-size: 1.6em !important;
+    margin: 0 0 0 15px;
+}
+footer span {
+    font-size: 1.3em;
+}
+.color-destaque {
+    color: #2366af;
+}
+#pesquisa-e-inovacao img {
+    border-radius: 5px;
+}
+#pesquisa-e-inovacao a {
+    color: #666;
+    text-decoration: none;
+}
+#pesquisa-e-inovacao a:hover {
+    color: #2366af;
+}
+#objetivos p {
+    display: block;
+}
+.box-curso {
+    background-color: #fff;
+    height: auto;
+    border-radius: 5px;
+    align-items: center;
+    margin-bottom: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none !important;
+    transition: all ease 0.2s;
+    text-align: center;
+}
+.box-curso:hover {
+    background-color: #2366af;
+    border-color: #2366af;
+    text-decoration: none !important;
+    outline: none !important;
+}
+.box-curso h6 {
+    color: #666;
+    text-decoration: none !important;
+    font-size: 1em;
+    margin: 0;
+    padding: 10px;
+    line-height: 21px;
+    font-weight: normal;
+}
+.box-curso:hover h6 {
+    color: #fff;
+}
+img.banner-cursos {
+    width: 100%;
+    border-radius: 5px;
+    margin: 0 0 10px 0;
+}
+.box-curso img {
+    width: 100%;
+    border-radius: 4px 4px 0 0;
+}
+.box-curso:hover img {
+    
+}
+ul.lista-itens {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+ul.lista-itens li {
+    list-style: none !important;
+    color: #666 !important;
+    font-size: 1em !important;
+    line-height: 25px !important;
+}
+ul.lista-itens li:before {
+    content: "\f00c";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em;
+    width: 1.3em;
+    color: #ccc;
+}
+span.categoria {
+    background-color: #fff;
+    color: #2366af;
+    padding: 3px 10px 3px 10px;
+    font-size: 0.8em;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 0 6px 0 0;
+}
+img.logo {
+    margin: 20px 0 20px 0;
+    width: 15%;
+}
+.cabecalho h1 {
+    color:#fff;
+    font-weight: bold;
+    font-size: 2.8em;
+    margin: 0;
+}
+.cabecalho h2 {
+    color: #fff;
+    background-color: #41287b;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 100px;
+    padding: 10px 20px 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.cabecalho h3 {
+    color:#fff;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin: 0;
+    letter-spacing: 5px;
+}
+.affix {
+    top: 0px;
+    position: fixed;
+    overflow: visible!important;
+    z-index: 9999;
+}
+.separador {
+    width: 70px;
+    height: 5px;
+    background-color: #6a2c91;
+    border-radius: 100px;
+    margin-bottom: 30px;
+    margin-top: -10px;
+}
+img.banner-rodape {
+    width: 100%;
+    margin-top: 40px;
+}
+img.icone-titulo {
+    width: 75px;
+    margin-bottom: 8px;
+}
+#faculdade-moinhos,#certificacoes,#pesquisa-e-inovacao,#objetivos,#nossos-cursos {
+    padding: 85px 0 85px 0;
+    z-index: 1;
+}
+.regular img {
+    width: 100%;
+    border-radius: 10px;
+    z-index: 0 !important;
+}
+span.destaque {
+    background-color: #6a2c91;
+    padding: 3px 10px 3px 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1em;
+    margin: 0 5px 10px 0;
+    display: inline-block;
+}
+.redes-sociais {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.box-certificacao {
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+.box-certificacao img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    border: 2px solid #ededec;
+}
+.box-certificacao p {
+    font-size: 0.95em;
+    line-height: 21px;
+}
+.box-certificacao-area {
+    position: relative;
+}
+.box-certificacao-area h1 {
+    font-size: 0.70em;
+    background-color: #6a2c91;
+    color: #fff;
+    padding: 5px;
+    border-radius: 0 0 5px 5px;
+    width: 100%;
+}
+.border-redonda {
+    border-radius: 5px !important;
+}
+
+.color-purple {
+    color: #6A2C91 !important;
+}
+
+.card-title {
+    font-size: 1.2em;
+}
